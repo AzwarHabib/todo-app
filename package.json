@@ -7,23 +7,29 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  
-    "dependencies": {
-      "@aws-amplify/api-graphql": "^4.0.29",
-      "@aws-amplify/pubsub": "^6.1.24",
-      "aws-amplify": "^6.6.2",
-      "vue": "^3.5.6",
-      "vue-router": "^4.0.13"
-    },
-    
+  "dependencies": {
+    "@aws-amplify/api-graphql": "^4.0.29",
+    "@aws-amplify/pubsub": "^6.1.24",
+    "aws-amplify": "^6.6.2",
+    "vue": "^3.5.6",
+    "vue-router": "^4.0.13"
+  },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.2.2",
+    "@aws-amplify/backend-cli": "^1.2.7",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "aws-cdk": "^2.159.0",
+    "aws-cdk-lib": "^2.159.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
   },
   "eslintConfig": {
     "root": true,
