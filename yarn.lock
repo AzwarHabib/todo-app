@@ -30,7 +30,7 @@
     "@smithy/util-utf8" "2.0.0"
     tslib "^2.5.0"
 
-"@aws-amplify/api-graphql@4.3.2", "@aws-amplify/api-graphql@^6.6.2":
+"@aws-amplify/api-graphql@4.3.2", "@aws-amplify/api-graphql@^4.0.29":
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/@aws-amplify/api-graphql/-/api-graphql-4.3.2.tgz#596cd879d0be4d84f62ccdc28ee25e8cb3f6df92"
   integrity sha512-izdaQOUMD/CuTY7eHI2ngjt2i80bMynNT63HueJszkeyc+N/eEl5qAQNRHx+VaVGiyGgiz82WxcEU6gfLKnvMA==
@@ -120,7 +120,7 @@
     lodash "^4.17.21"
     tslib "^2.5.0"
 
-"@aws-amplify/pubsub@^6.6.2":
+"@aws-amplify/pubsub@^6.1.24":
   version "6.1.24"
   resolved "https://registry.yarnpkg.com/@aws-amplify/pubsub/-/pubsub-6.1.24.tgz#2cf4f7f82fd525727e70630616850e22c3db74c3"
   integrity sha512-KDzm7ATqfEuFdU76d5ZGwCjkj0V+M10U04n/pCI0YdJp8Nu8zLaVJnwer8/TtJgBWpVJPccgFNiNks2d4PY80A==
