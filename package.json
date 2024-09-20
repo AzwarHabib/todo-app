@@ -9,7 +9,8 @@
   },
   
     "dependencies": {
-      "@aws-amplify/api-graphql": "^4.0.29",
+      "@aws-amplify/api": "^6.0.51",
+      "@aws-amplify/api-graphql": "^4.3.2",
       "@aws-amplify/pubsub": "^6.1.24",
       "aws-amplify": "^6.6.2",
       "vue": "^3.5.6",
