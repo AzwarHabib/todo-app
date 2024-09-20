@@ -1,21 +1,17 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import {Amplify} from 'aws-amplify';
-
+import { createApp } from "vue";
+import App from "./App.vue";
+import { Amplify } from "aws-amplify";
 
 Amplify.configure({
-    API: {
-        GraphQL: {
-            endpoint: 'https://rymsdnzmenax3p5uufxxfm6rum.appsync-api.ap-south-1.amazonaws.com/graphql',
-            region: 'ap-south-1',
-            defaultAuthMode: 'apiKey',
-            apiKey: 'da2-p7unb63g6vauthbrfxoyt4oycy'
-          }
-    }
-  });
+  API: {
+    GraphQL: {
+      endpoint: process.env.VUE_APP_AWS_APPSYNC_GRAPHQL_ENDPOINT,
+      region: process.env.VUE_APP_AWS_PROJECT_REGION,
+      defaultAuthMode: process.env.VUE_APP_AWS_APPSYNC_AUTHENTICATION_TYPE,
+      apiKey: process.env.VUE_APP_AWS_APPSYNC_API_KEY,
+    },
+  },
+});
+console.log(process.env.VUE_APP_AWS_APPSYNC_GRAPHQL_ENDPOINT);
 
-   
-
-
-
-createApp(App).mount('#app');
+createApp(App).mount("#app");
